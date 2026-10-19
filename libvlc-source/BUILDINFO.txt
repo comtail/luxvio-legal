@@ -1,0 +1,7 @@
+LibVLC for LUXVIO, LGPL build
+Built: 2026-10-18T14:40:25Z on Linux 6.6.87.2-microsoft-standard-WSL2 x86_64
+libvlcjni 0b8dc65efb203c86a0476bc337ddd99ecf1c0ef6 (branch libvlcjni-3.x), vlc 5abc418c98df26a5ab085f89e01909686ad85831
+Android NDK r27c sha256 59c2f6dc96743b5daf5d1626684640b20a6bd2b1d85b13156b90333741bad5cc (64-bit), r21e sha256 ad7ce5467e18d40050dc51b8e7affc3e635c85bd8c59be62de32352328ed467e (32-bit)
+compile-libvlc.sh --license a + --disable-zvbi --disable-lua --disable-sout --disable-realrtsp, GPL modules blacklisted, AVLC_STATIC_CXX=1
+ABIs: arm64-v8a armeabi-v7a x86 x86_64 (this run: armeabi-v7a x86; arm64-v8a, x86_64 built earlier the same day from the same sources)
+Rebuild: tools/libvlc/build_libvlc_lgpl.sh

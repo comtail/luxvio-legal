@@ -1,0 +1,90 @@
+diff --git a/buildsystem/compile-libvlc.sh b/buildsystem/compile-libvlc.sh
+index b67c1e6..c29a9c5 100755
+--- a/buildsystem/compile-libvlc.sh
++++ b/buildsystem/compile-libvlc.sh
+@@ -209,7 +209,14 @@ VLC_LDFLAGS="-z max-page-size=16384"
+ 
+ 
+ if [ "$AVLC_STATIC_CXX" = 1 ]; then
++    if [ "$REL" = 21 ]; then # LUXVIO r21
++        VLC_CXXFLAGS="$VLC_CXXFLAGS -static -Qunused-arguments -static-libstdc++"
++        STL_DIR="$ANDROID_NDK/sources/cxx-stl/llvm-libc++/libs/$ANDROID_ABI"
++        LUXVIO_R21_STL="$STL_DIR/libc++_static.a $STL_DIR/libc++abi.a $STL_DIR/libandroid_support.a"
++        [ -f "$STL_DIR/libunwind.a" ] && LUXVIO_R21_STL="$LUXVIO_R21_STL $STL_DIR/libunwind.a"
++    else
+     VLC_CXXFLAGS="$VLC_CXXFLAGS -static --start-no-unused-arguments -static-libstdc++ --end-no-unused-arguments"
++    fi
+ fi
+ 
+ # Release or not?
+@@ -293,10 +300,10 @@ VLC_CONTRIB_ARGS="\
+     --disable-dca \
+     --disable-goom \
+     --disable-chromaprint \
+-    --enable-lua \
++    --disable-lua \
+     --disable-sdl \
+     --disable-SDL_image \
+-    --enable-zvbi \
++    --disable-zvbi \
+     --disable-kate \
+     --disable-caca \
+     --disable-mpcdec \
+@@ -351,7 +358,7 @@ VLC_CONFIGURE_ARGS="\
+     --disable-update-check \
+     --disable-vlm \
+     --disable-dbus \
+-    --enable-lua \
++    --disable-lua \
+     --disable-vcd \
+     --disable-v4l2 \
+     --enable-bluray \
+@@ -367,7 +374,7 @@ VLC_CONFIGURE_ARGS="\
+     --enable-mpg123 \
+     --disable-dca \
+     --disable-sdl-image \
+-    --enable-zvbi \
++    --disable-zvbi \
+     --disable-fluidsynth \
+     --enable-fluidlite \
+     --disable-jack \
+@@ -387,7 +394,7 @@ VLC_CONFIGURE_ARGS="\
+     --enable-gles2 \
+     --disable-goom \
+     --disable-projectm \
+-    --enable-sout \
++    --disable-sout \
+     --enable-vorbis \
+     --disable-faad \
+     --disable-vnc \
+@@ -400,6 +407,16 @@ VLC_CONFIGURE_ARGS="\
+ ########################
+ 
+ VLC_MODULE_BLACKLIST="
++    rotate
++    dolby_surround_decoder
++    headphone_channel_mixer
++    mono
++    access_realrtsp
++    lua
++    stream_out_.*
++    dummy
++    file_logger
++    syslog
+     addons.*
+     stats
+     access_(bd|shm|imem)
+@@ -734,7 +751,7 @@ $NDK_BUILD -C $LIBVLCJNI_SRC_DIR/libvlc \
+     VLC_CONTRIB="$VLC_CONTRIB" \
+     VLC_CONTRIB_LDFLAGS="$VLC_CONTRIB_LDFLAGS" \
+     VLC_MODULES="$VLC_MODULES" \
+-    VLC_LDFLAGS="$VLC_LDFLAGS" \
++    VLC_LDFLAGS="$VLC_LDFLAGS $LUXVIO_R21_STL" \
+     VLC_BUILD_JNI="$AVLC_BUILD_JNI" \
+     APP_BUILD_SCRIPT=jni/Android.mk \
+     APP_PLATFORM=android-${ANDROID_API} \
+@@ -752,3 +769,4 @@ rm -f $VLC_OUT_PATH/libs/${ANDROID_ABI}/gdb*
+ if [ "$AVLC_SOURCED" != "1" ]; then
+     avlc_build
+ fi
++# LUXVIO_LGPL_PATCHED
