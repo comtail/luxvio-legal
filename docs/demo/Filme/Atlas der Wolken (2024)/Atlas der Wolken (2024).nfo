@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+  <title>Atlas der Wolken</title>
+  <year>2024</year>
+  <plot>Als die Wetterstationen der Erde ein unbekanntes Signal empfangen, muss eine junge Meteorologin entscheiden, wem sie trauen kann.</plot>
+  <rating>8.2</rating>
+  <genre>Science-Fiction</genre>
+  <runtime>110</runtime>
+  <director>Aylin Demir</director>
+  <actor><name>Lena Hoff</name></actor>
+  <actor><name>Tarek Aziz</name></actor>
+</movie>

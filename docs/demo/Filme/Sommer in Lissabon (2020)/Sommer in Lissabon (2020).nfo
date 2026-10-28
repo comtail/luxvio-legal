@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+  <title>Sommer in Lissabon</title>
+  <year>2020</year>
+  <plot>Ein pedantischer Architekt erbt ein baufälliges Café in der Altstadt. Sein Plan: verkaufen. Lissabon hat andere Pläne.</plot>
+  <rating>6.9</rating>
+  <genre>Komödie</genre>
+  <runtime>131</runtime>
+  <director>Elias Brandt</director>
+  <actor><name>Lena Hoff</name></actor>
+  <actor><name>Tarek Aziz</name></actor>
+</movie>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+  <title>Nordlicht</title>
+  <year>2023</year>
+  <plot>Eine Fotografin reist in den Winter Lapplands, um das letzte Bild ihres Vaters zu vollenden – und findet dabei mehr als das Licht, das sie sucht.</plot>
+  <rating>7.9</rating>
+  <genre>Drama</genre>
+  <runtime>96</runtime>
+  <director>Mara Lindqvist</director>
+  <actor><name>Lena Hoff</name></actor>
+  <actor><name>Tarek Aziz</name></actor>
+</movie>

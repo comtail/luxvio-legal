@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+  <title>Kupferherz</title>
+  <year>2019</year>
+  <plot>Zwei Geschwister folgen einer alten Schatzkarte durch die Minen ihrer Heimatstadt – und stoßen auf ein Familiengeheimnis.</plot>
+  <rating>7.1</rating>
+  <genre>Abenteuer</genre>
+  <runtime>117</runtime>
+  <director>Paul Weber</director>
+  <actor><name>Lena Hoff</name></actor>
+  <actor><name>Tarek Aziz</name></actor>
+</movie>

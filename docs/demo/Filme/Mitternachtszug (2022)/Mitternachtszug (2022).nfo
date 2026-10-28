@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+  <title>Mitternachtszug</title>
+  <year>2022</year>
+  <plot>Im letzten Nachtzug nach Wien sitzen sieben Fremde – und einer von ihnen ist nicht, wer er vorgibt zu sein.</plot>
+  <rating>7.6</rating>
+  <genre>Krimi</genre>
+  <runtime>124</runtime>
+  <director>Sofia Marin</director>
+  <actor><name>Lena Hoff</name></actor>
+  <actor><name>Tarek Aziz</name></actor>
+</movie>

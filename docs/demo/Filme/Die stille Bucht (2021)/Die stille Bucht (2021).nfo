@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+  <title>Die stille Bucht</title>
+  <year>2021</year>
+  <plot>Ein Sommer an der Küste, ein verschwundenes Boot und ein Dorf, das lieber schweigt. Eine Kommissarin hört genauer hin.</plot>
+  <rating>7.4</rating>
+  <genre>Thriller</genre>
+  <runtime>103</runtime>
+  <director>Jonas Feld</director>
+  <actor><name>Lena Hoff</name></actor>
+  <actor><name>Tarek Aziz</name></actor>
+</movie>
