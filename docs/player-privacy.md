@@ -1,6 +1,10 @@
 ---
 title: Privacy policy – Nugget Player for Samsung Smart TV
 lang: en
+layout: nugget
+description: Privacy policy of Nugget Player for Samsung Smart TV (Corevant Software)
+other_lang_url: /player-datenschutz.html
+other_lang_label: Deutsch
 ---
 
 Last updated: 27 October 2026. This policy applies to the app "Nugget Player" on Samsung TVs (Tizen).
