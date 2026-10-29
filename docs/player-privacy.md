@@ -1,9 +1,9 @@
 ---
-title: Privacy policy – LUXVIO Player for Samsung Smart TV
+title: Privacy policy – Nugget Player for Samsung Smart TV
 lang: en
 ---
 
-Last updated: 27 October 2026. This policy applies to the app "LUXVIO Player" on Samsung TVs (Tizen).
+Last updated: 27 October 2026. This policy applies to the app "Nugget Player" on Samsung TVs (Tizen).
 
 ## 1. Controller and contact
 
@@ -18,7 +18,7 @@ VAT ID: DE232202784
 
 ## 2. Principle
 
-LUXVIO Player works without a user account and without servers of the provider. The app contains no advertising, no analytics or tracking services and no crash reporting to third parties. The provider receives no personal data through the app.
+Nugget Player works without a user account and without servers of the provider. The app contains no advertising, no analytics or tracking services and no crash reporting to third parties. The provider receives no personal data through the app.
 
 ## 3. Local processing on your TV
 
