@@ -1,9 +1,9 @@
 ---
-title: Datenschutzerklärung – LUXVIO Player für Samsung Smart TV
+title: Datenschutzerklärung – Nugget Player für Samsung Smart TV
 lang: de
 ---
 
-Stand: 27. Oktober 2026. Diese Erklärung gilt für die App „LUXVIO Player“ auf Samsung-Fernsehern (Tizen).
+Stand: 27. Oktober 2026. Diese Erklärung gilt für die App „Nugget Player“ auf Samsung-Fernsehern (Tizen).
 
 ## 1. Verantwortlicher und Kontakt
 
@@ -18,7 +18,7 @@ Umsatzsteuer-Identifikationsnummer: DE232202784
 
 ## 2. Grundsatz
 
-LUXVIO Player funktioniert ohne Nutzerkonto und ohne Server des Anbieters. Die App enthält keine Werbung, keine Analyse- oder Tracking-Dienste und keine Absturzberichte an Dritte. Der Anbieter erhält über die App keine personenbezogenen Daten.
+Nugget Player funktioniert ohne Nutzerkonto und ohne Server des Anbieters. Die App enthält keine Werbung, keine Analyse- oder Tracking-Dienste und keine Absturzberichte an Dritte. Der Anbieter erhält über die App keine personenbezogenen Daten.
 
 ## 3. Lokale Verarbeitung auf Ihrem Fernseher
 
