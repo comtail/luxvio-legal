@@ -1,6 +1,10 @@
 ---
 title: Datenschutzerklärung – Nugget Player für Samsung Smart TV
 lang: de
+layout: nugget
+description: Datenschutzerklärung von Nugget Player für Samsung Smart TV (Corevant Software)
+other_lang_url: /player-privacy.html
+other_lang_label: English
 ---
 
 Stand: 27. Oktober 2026. Diese Erklärung gilt für die App „Nugget Player“ auf Samsung-Fernsehern (Tizen).
